@@ -136,7 +136,6 @@ syn match sqlStoredProc "dbo\.\w\+"
 " Strings and characters:
 syn region sqlString		start=+"+    end=+"+ contains=@Spell
 syn region sqlString		start=+'+    end=+'+ contains=@Spell
-syn region sqlString		start=+<+    end=+>+ contains=@Spell
 
 " Numbers:
 syn match sqlNumber		"-\=\<\d*\.\=[0-9_]\>"
